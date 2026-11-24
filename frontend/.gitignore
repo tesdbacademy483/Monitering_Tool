@@ -1,0 +1,16 @@
+# Secrets - never push these to GitHub
+.env
+*.env
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+test.sqlite3
+
+# Node
+node_modules/
+dist/
